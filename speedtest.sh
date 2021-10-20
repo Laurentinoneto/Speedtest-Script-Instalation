@@ -49,7 +49,7 @@ sleep 2
 systemctl restart apache2
 sleep 3
 ######################### INSTALAR CERTIFICADO ########################
-sudo apt install letsencrypt python-certbot-apache -y
+sudo apt install letsencrypt python3-certbot-apache -y
 sleep 25
 systemctl stop apache2
 sleep 1
